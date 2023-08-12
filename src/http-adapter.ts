@@ -3,7 +3,7 @@ import type { Adapter } from "next-auth/adapters";
 import { HttpAdpaterManager } from "./manager";
 import type { AdapterManagerConfig } from "./types";
 
-export function httpAdpater(opts: AdapterManagerConfig): Adapter {
+export function httpAdapter(opts: AdapterManagerConfig): Adapter {
   const manager = new HttpAdpaterManager(opts);
   return {
     async createUser(user) {
