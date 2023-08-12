@@ -34,10 +34,15 @@
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "next-auth": "^4.23.0",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4",
     "vite": "^4.3.9",
     "vite-plugin-dts": "^2.3.0",
     "vitest": "^0.31.1"
+  },
+  "dependencies": {
+    "ofetch": "^1.1.1",
+    "zod": "^3.21.4"
   }
 }

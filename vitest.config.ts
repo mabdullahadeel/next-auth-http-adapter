@@ -9,13 +9,9 @@ export default mergeConfig(
   viteConfig,
   defineConfig({
     test: {
-      environment: "jsdom",
+      environment: "node",
       testTimeout: 30_000,
-      hookTimeout: 30_000,
-      include: [
-        "**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
-        "../../packages/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
-      ],
+      include: ["./src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}"],
     },
   })
 );
