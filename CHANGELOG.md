@@ -1,5 +1,11 @@
 # next-auth-http-adpter
 
+## 0.2.0
+
+### Minor Changes
+
+- 89ff4aa: - fixed exported function name typo
+
 ## 0.1.0
 
 ### Minor Changes

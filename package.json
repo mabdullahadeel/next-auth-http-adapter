@@ -1,6 +1,6 @@
 {
   "name": "next-auth-http-adapter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "next auth adapter for authentication over http",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
