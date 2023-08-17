@@ -1,5 +1,11 @@
 # next-auth-http-adpter
 
+## 0.3.0
+
+### Minor Changes
+
+- 252ec1f: - added docs in `README.md`
+
 ## 0.2.0
 
 ### Minor Changes
